@@ -82,7 +82,6 @@
   display: inline-block;
   margin-bottom: 16px;
   margin-right: 76px;
-  box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .span-text {
   color: #2e2f42;
@@ -226,6 +225,7 @@
 }
 .header-text {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .menu-list {
   display: flex;
@@ -294,7 +294,7 @@ img {
  .social-media-icons {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
  }
  .social-media-links {
   width: 100%;
@@ -304,6 +304,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .instagram-icon {
   fill:  #f4f4fd
@@ -343,7 +344,7 @@ img {
  .footer-social-media-lists-text {
   width: 40px; 
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
   
  }
  .instagram-link {
@@ -354,6 +355,7 @@ img {
   display: flex; 
   align-items: center; 
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .instagram-link:hover {
   background-color: #31d0aa;
@@ -372,6 +374,6 @@ img {
   border-radius: 2px; 
 
  }
- .section-four-cards-paragraph:hover {
+ .our-portfolio-lists:hover .section-four-cards-paragraph {
   transform: translateY(0%);
  }
