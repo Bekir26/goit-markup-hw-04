@@ -362,7 +362,7 @@ img {
  .instagram-link:focus {
   background-color: #31d0aa;
  }
- .nav-text::after {
+ .nav-lists-text::after {
   content: '';
   width: 100%;
   position: absolute;
